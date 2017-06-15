@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.recolored {
+	filter: gray; /* IE6-9 */
+	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	filter-name: grayscale;
+	-webkit-filter-name: grayscale;
+ 	-o-transition:1s;
+ 	 -ms-transition:1s;
+  	-moz-transition:1s;
+  	-webkit-transition:1s;
+ 	 transition:1s;
+}
+
+.recolored:hover {
+	filter: none;
+	-webkit-filter: none;
+ 	-o-transition:1s;
+ 	 -ms-transition:1s;
+  	-moz-transition:1s;
+  	-webkit-transition:1s;
+ 	 transition:1s;
+}
